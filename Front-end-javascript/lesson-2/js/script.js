@@ -1,8 +1,11 @@
+'use strict'
 ///1///
 let userName = prompt("Як вас звуть? ");
 console.log(userName);
 ///2///
-let ourAge = alert("Мені та моему другу Дімі 11 років");
+const myAge = 11;
+const friendAge = 11;
+let ourAge = alert(`Мені ${myAge} та моему другу ${friendAge} `);
 console.log(ourAge);
 ///3///
 const a = 10;
@@ -10,22 +13,22 @@ const b = 7;
 let numberThree = a * b;
 console.log(numberThree);
 ///4///
-let a1 = 5 + 3;
-let a2 = 5 - 3;
-let a3 = 5 * 3;
-let a4 = 5/3;
-let a5 = 5 + 3*2;
+const a1 = 5 + 3;
+const a2 = 5 - 3;
+const a3 = 5 * 3;
+const a4 = 5/3;
+const a5 = 5 + 3*2;
 console.log(a1);
 console.log(a2);
 console.log(a3);
 console.log(a4);
 console.log(a5);
 ///5///
-let a6 = 5 % 3;      
-let a7 = 3 % 5;      alert(a7);
-let a8 = 5 +'3';     alert(a8);
-let a9 = 3 +'5';     alert(a9);
-let a10 = 75 + 'кг'; alert(a10);
+const a6 = 5 % 3;      
+const a7 = 3 % 5;      alert(a7);
+const a8 = 5 +'3';     alert(a8);
+const a9 = 3 +'5';     alert(a9);
+const a10 = 75 + 'кг'; alert(a10);
 alert(a6);
 ///6///
 let height = 23;
