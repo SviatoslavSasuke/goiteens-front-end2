@@ -1,3 +1,4 @@
+'use strict'
 ///1
 // Парсить з рядка ціле число
 const kFirst = Number.parseInt('5px');
@@ -28,8 +29,10 @@ console.log(sd);
 const randomFirst = Math.random() * (19 - 3) + 3;
 console.log(randomFirst);
 //5
-const result = 5+5+'5';
-console.log(result);
+///////////////////////////////////////////////////////////////
+const result = 5+5+'5';//////////////////////////
+console.log(typeof result);/////////////////////
+//////////////////////////////////////////////////////////////
 //6
 const email = 'svjatfil@gmail.com';
 console.log('Чи містить ваша пошта @? = ' + email.includes('@'));
