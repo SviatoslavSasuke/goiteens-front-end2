@@ -3,9 +3,10 @@
 let userName = prompt("Як вас звуть? ");
 console.log(userName);
 ///2///
-const myAge = 11;
-const friendAge = 11;
-let ourAge = alert(`Мені ${myAge} та моему другу ${friendAge} `);
+const myAge = Number(prompt('Скільки вам років?'));
+const friendAge = Number(prompt('Скільки вашому другу років?'));
+const ourAge = alert('Вам та вашому другу = ' + (myAge + friendAge));
+
 console.log(ourAge);
 ///3///
 const a = 10;
