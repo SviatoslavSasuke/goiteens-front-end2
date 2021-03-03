@@ -35,10 +35,10 @@ console.log('//////////////////////////')
  const yourName = prompt('Введіть своє імя');
  const yourFamily = prompt('Введіть свою фамілію')
  
- if (yourName) {
+ if (yourName && yourFamily) {
 
-    if (yourName.length > 4) {
-         alert(yourName + ' - ' + yourName.length + ' ' + 'букв.');
+    if (yourName.length > 4 && yourFamily.length > 5) {
+         alert('В вашому імені' + ' - ' + yourName.length + 'букв. В вашій фамілії - ' + yourFamily.length + ' ' + 'букв.');
         console.log((yourName + ' - ' + yourName.length + ' ' + 'букв.'));
     }else{
            alert('УПС!');
@@ -46,16 +46,7 @@ console.log('//////////////////////////')
     }
  }
 
- if (yourFamily) {
-
-    if (yourFamily.length > 5) {
-         alert(yourFamily + ' - ' + yourFamily.length + ' ' + 'букв.');
-        console.log((yourFamily + ' - ' + yourFamily.length + ' ' + 'букв.'));
-    }else{
-           alert('УПС!');
-           console.log('УПС!');
-    }
- }
+ 
  ///4///
  console.log('//////////////////////////');
  
