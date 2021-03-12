@@ -43,9 +43,13 @@ let DC = 4;
 let v = 3.14 * ((DC / 2) ** 2) * heightC;
 
 console.log(v);
+
 ///8///
-const n = 3; //катет
-const m = 4; //катет
-let BC = 0; //гипотенуза
-BC = (n ** 2) + Math.pow(m, 2);
-console.log(BC);
+const n = 3;
+const m = 4;
+let g = 0;
+
+g = (n ** 2) + (m ** 2);
+g = Math.sqrt(g);
+
+console.log('g=', (Math.round(g)));
