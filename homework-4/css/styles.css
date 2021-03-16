@@ -50,7 +50,7 @@ padding: 0 15px;
 
 .MoGo{
     color: #95e1d3;
-    font-size: 21px;
+    font-size: 30px;
     font-family:"Montserrat", sans-serif ;
     font-weight: bold;
     line-height: 1.5;
@@ -67,7 +67,7 @@ padding: 0 15px;
 }
 
 .menu-item__link{
-font-size: 10px;
+font-size: 14px;
 line-height: 1.714;
 font-family: "Montserrat", sans-serif;
 transition: 0.2s linear all;
