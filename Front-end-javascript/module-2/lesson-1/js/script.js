@@ -1,44 +1,46 @@
 'use strict'
-
-console.log('////////////////1///////////////')
+//-----------------------------------------------------------------//
+console.log('////////////////1////////////////');
 
 let Arr1 = [1, 5, '4', 'hello'];
 let Arr2 = [true, 2, {}, ['a'], 222];
 
-console.log(Arr1[1] + Arr2[1]);
+console.log(Arr1[1]);
+console.log(Arr2[1]);
 
+console.log(Arr1 [1] + Arr2 [1]);
+//-----------------------------------------------------------------//
+console.log('////////////////2////////////////');
 
-console.log('////////////////2///////////////')
-
+Arr1[4] = 22;
 console.log(Arr1);
 
+//-----------------------------------------------------------------//
+console.log('////////////////3////////////////');
 
-console.log('////////////////3///////////////')
+for (const pseudoArr2 of Arr2) {
+    console.log('Значення даного елементу масиву:', pseudoArr2, ',', 'а тип:', typeof pseudoArr2 + '.');
+};
+//-----------------------------------------------------------------//
+console.log('////////////////4////////////////');
 
-for (let Arr of Arr2) {
-  console.log(Arr);
-}
+let message = 'Welcome to Ukraine!';
 
+message = message.split('')
+console.log(message);
 
-console.log('////////////////4///////////////')
+console.log('Індекс літери англійської "l":', message.indexOf('l'));
+console.log(message.join(''));
+//-----------------------------------------------------------------//
+console.log('////////////////5////////////////');
 
-const message = 'Welcome to Ukraine!';
-let leters = message.split('');
-console.log(leters.indexOf('l'));
+let styles = ['Джаз', 'Блюз'];
 
+styles.push('Рок-н-рол');
 
-console.log('////////////////5///////////////')
+styles[1] = 'Класика';
+console.log('Видалений 1 елемент масиву:', styles.shift());
 
-let style = [ 'Джаз', 'Блюз' ];
-
-style.push('Рок-н-ролл');
-console.log(style);
-
-style.splice(1, 1, 'Класика',);
-console.log(style);
-
-let shift = style.shift();
-console.log(shift);
-
-style.unshift('Реn', 'Реrrі');
-console.log(style);
+styles.unshift('Реп', 'Реггі');
+console.log(styles);
+//-----------------------------------------------------------------//
