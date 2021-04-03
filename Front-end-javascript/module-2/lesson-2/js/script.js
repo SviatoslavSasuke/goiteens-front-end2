@@ -41,7 +41,7 @@ const myAverageScore = function (...marks) {
     for (const total of  arguments) {
         totalMarks += total;
     };
-
+    
     lastMark = totalMarks / marks.length;
     if (lastMark <= 100 && lastMark >= 91) {
          console.log('My average score: A');
@@ -54,4 +54,4 @@ const myAverageScore = function (...marks) {
     };
 };
 
-myAverageScore(...marks) 
+myAverageScore(...marks)
